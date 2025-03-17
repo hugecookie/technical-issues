@@ -62,7 +62,7 @@ public class Main {
     public static int sumUsingForLoop(int[] numbers) {
         int sum = 0;
         for (int num : numbers) {
-            if (num % 2 == 0) {
+            if (num % 3 == 0) {
                 sum += num;
             }
         }

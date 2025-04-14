@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="195f0e41-8a5f-4c04-8df5-f1ece221bc2d" name="변경" comment="feat: for-loop vs Stream vs Parallel Stream 성능 비교 코드 추가">
+    <list default="true" id="195f0e41-8a5f-4c04-8df5-f1ece221bc2d" name="변경" comment="feat: 테스트 코드 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ScheduleServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "hugecookie"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hugecookie&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:hugecookie/technical-issues.git",
-    "accountId": "2f476f24-cf9d-4850-b15c-d9de55b99afc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:hugecookie/technical-issues.git&quot;,
+    &quot;accountId&quot;: &quot;2f476f24-cf9d-4850-b15c-d9de55b99afc&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2tveRJKAeoJmuspjkJSM5nEw4Ev" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -45,26 +46,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/phr/Desktop/nbcamp-AS/기술 이슈/JAVA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/phr/Desktop/nbcamp-AS/기술 이슈/JAVA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -77,6 +79,9 @@
       <option name="presentableId" value="Default" />
       <updated>1741236965397</updated>
       <workItem from="1741236966461" duration="10709000" />
+      <workItem from="1742218857233" duration="242000" />
+      <workItem from="1744376920658" duration="157000" />
+      <workItem from="1744626822799" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="feat: for-loop vs Stream vs Parallel Stream 성능 비교 코드 추가">
       <option name="closed" value="true" />
@@ -86,7 +91,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741257551160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: for-loop vs Stream vs Parallel Stream 성능 비교 코드 추가">
+      <option name="closed" value="true" />
+      <created>1742218863866</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742218863866</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 성능 검색 엔진 변경">
+      <option name="closed" value="true" />
+      <created>1742218975900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742218975900</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: 테스트 코드 추가">
+      <option name="closed" value="true" />
+      <created>1744377043150</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744377043150</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: for-loop vs Stream vs Parallel Stream 성능 비교 코드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: for-loop vs Stream vs Parallel Stream 성능 비교 코드 추가" />
+    <MESSAGE value="feat: 성능 검색 엔진 변경" />
+    <MESSAGE value="feat: 테스트 코드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 테스트 코드 추가" />
   </component>
 </project>
